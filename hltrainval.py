@@ -11,7 +11,8 @@ import numpy as np
 from PIL import Image
 from matplotlib import pyplot as plt
 plt.switch_backend('agg')
-from skimage.measure import compare_psnr
+#from skimage.measure import compare_psnr
+from skimage.metrics import peak_signal_noise_ratio
 from skimage.measure import compare_ssim
 import torch.backends.cudnn as cudnn
 
