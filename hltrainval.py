@@ -13,7 +13,8 @@ from matplotlib import pyplot as plt
 plt.switch_backend('agg')
 #from skimage.measure import compare_psnr
 from skimage.metrics import peak_signal_noise_ratio
-from skimage.measure import compare_ssim
+#from skimage.measure import compare_ssim
+from skimage.metrics import structural_similarity
 import torch.backends.cudnn as cudnn
 
 import torch
