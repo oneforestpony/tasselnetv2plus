@@ -4,7 +4,9 @@
 
 #import os
 import os
-os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
+
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
+
 import json
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
