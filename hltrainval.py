@@ -2,7 +2,9 @@
 @author: hao
 """
 
+#import os
 import os
+os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 import argparse
 from time import time
 

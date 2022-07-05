@@ -2,7 +2,9 @@
 @author: hao lu
 """
 
+#import os
 import os
+os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 import json
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
