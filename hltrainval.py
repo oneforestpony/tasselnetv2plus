@@ -75,7 +75,8 @@ RANDOM_SEED = 6
 WEIGHT_DECAY = 5e-4
 VAL_EVERY = 1
 
-device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+#device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+device = torch.device("cpu")
 
 # add a new entry here if creating a new data loader
 dataset_list = {
