@@ -16,9 +16,9 @@ from PIL import Image
 from matplotlib import pyplot as plt
 plt.switch_backend('agg')
 #from skimage.measure import compare_psnr
-from skimage.metrics import peak_signal_noise_ratio
+#from skimage.metrics import peak_signal_noise_ratio
 #from skimage.measure import compare_ssim
-from skimage.metrics import structural_similarity
+#from skimage.metrics import structural_similarity
 import torch.backends.cudnn as cudnn
 
 import torch
@@ -75,7 +75,7 @@ RANDOM_SEED = 6
 WEIGHT_DECAY = 5e-4
 VAL_EVERY = 1
 
-#device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 device = torch.device("cpu")
 
 # add a new entry here if creating a new data loader
